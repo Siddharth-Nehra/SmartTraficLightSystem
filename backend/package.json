@@ -1,0 +1,17 @@
+{
+  "name": "smart-traffic-light-control",
+  "version": "1.0.0",
+  "description": "Smart Traffic Light Control using Priority Scheduling",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build:client": "cd ../client && npm install && npm run build"
+  },
+  "keywords": ["traffic", "priority-scheduling", "express"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
